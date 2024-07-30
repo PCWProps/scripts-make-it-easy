@@ -1,0 +1,20 @@
+#HOW TO SAVE AND EXECUTE
+# Clone .py script or download raw file
+# Save the file in the ~/bin directory
+
+# Make the file executable with 
+chmod +x ~/bin/FILENAME.py
+
+# Add the ~/bin directory to the PATH with 
+export PATH=$PATH:~/bin
+
+# Reload the bash profile with 
+source ~/.bash_profile or source ~/.bashrc
+# Run the script by typing its name (without the .py extension) in the terminal
+# By adding your 3 values in the script
+#  requires_auth will be set to True and the script will ask for your password
+# remove the # from the line you want to run
+# "create_desktop_shortcut('App_name', 'app_secret_path',requires_auth)"
+
+#example terminal command
+create_desktop_shortcut(1Password, op item get 1pa --fields password,requires_auth)

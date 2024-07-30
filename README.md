@@ -7,4 +7,6 @@ write a python script to do all the work.
 
 I just find things missing at times, or want it to be easier, 
 so I'm complining little scripts to automate some processes 
-and streamline things.   
+and streamline things.
+
+Adding more as I continue my coding journey!    
