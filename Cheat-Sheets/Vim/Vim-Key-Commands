@@ -1,0 +1,93 @@
+
+# Vim Key Commands
+
+## Basic Modes
+- **i** - Insert mode
+- **Esc** - Return to Normal mode
+- **v** - Visual mode
+- **V** - Visual Line mode
+- **Ctrl + v** - Visual Block mode
+- **:q** - Quit
+- **:w** - Write/save file
+- **:wq** - Save and quit
+- **:q!** - Quit without saving
+- **:x** - Save and exit (same as :wq)
+
+## Navigation
+- **h** - Move left
+- **j** - Move down
+- **k** - Move up
+- **l** - Move right
+- **0** - Move to beginning of line
+- **$** - Move to end of line
+- **w** - Move to beginning of next word
+- **b** - Move to beginning of previous word
+- **G** - Move to last line of file
+- **gg** - Move to first line of file
+- **Ctrl + f** - Scroll down one screen
+- **Ctrl + b** - Scroll up one screen
+
+## Editing Text
+- **x** - Delete character under cursor
+- **dd** - Delete current line
+- **d3w** - Delete three words
+- **u** - Undo last change
+- **Ctrl + r** - Redo last undone change
+- **y** - Yank (copy) selection
+- **p** - Paste after cursor
+- **P** - Paste before cursor
+- **r** - Replace single character
+- **cw** - Change (replace) word
+- **c$** - Change (replace) to end of line
+
+## Visual Mode
+- **v** - Start visual mode
+- **V** - Visual line mode
+- **Ctrl + v** - Visual block mode
+- **y** - Yank (copy) selected text
+- **d** - Delete selected text
+- **>** - Indent selection
+- **<** - Outdent selection
+
+## Searching
+- **/text** - Search forward for "text"
+- **?text** - Search backward for "text"
+- **n** - Repeat last search in same direction
+- **N** - Repeat last search in opposite direction
+- **:%s/old/new/g** - Substitute all instances of "old" with "new"
+
+## File Management
+- **:e filename** - Open a file named "filename"
+- **:w** - Save the file
+- **:w filename** - Save as "filename"
+- **:q** - Quit
+- **:wq** - Save and quit
+- **:q!** - Quit without saving
+
+## Tabs
+- **:tabnew filename** - Open file in a new tab
+- **gt** - Go to next tab
+- **gT** - Go to previous tab
+- **:tabclose** - Close current tab
+
+## Window Management
+- **:split filename** - Split window horizontally and open file
+- **:vsplit filename** - Split window vertically and open file
+- **Ctrl + w + h** - Move to left window
+- **Ctrl + w + j** - Move to below window
+- **Ctrl + w + k** - Move to above window
+- **Ctrl + w + l** - Move to right window
+- **Ctrl + w + q** - Close window
+- **Ctrl + w + o** - Close all windows except the current one
+
+## Macros
+- **qa** - Start recording macro in register "a"
+- **q** - Stop recording macro
+- **@a** - Run macro from register "a"
+
+## Miscellaneous
+- **:set number** - Show line numbers
+- **:set nonumber** - Hide line numbers
+- **:set wrap** - Wrap long lines
+- **:set nowrap** - Don't wrap long lines
+- **:help** - Open Vim help
